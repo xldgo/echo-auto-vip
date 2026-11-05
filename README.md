@@ -24,9 +24,21 @@ EchoMusic 插件：打开 EchoMusic 时自动领取酷狗概念版「每日畅�
 | 广告领时长 | 直连签名请求 | `/youth/v1/ad/play_report`（每次 +3 小时概念会员有效期，每日 8 次 = +1 天） |
 | 会员状态 | `ctx.kugou.user.getUserVipDetail()` | `kugouvip.kugou.com/v1/get_union_vip` |
 
-## 安装
+## 安装与更新
 
-把本目录放入 `C:\Users\YTDB\AppData\Roaming\echo-music\plugins\`，重启 EchoMusic，在「设置 → 插件管理」中启用，即可在插件卡片上打开设置页。
+### 方式一：在线插件源安装（推荐，支持在线更新）
+
+在 EchoMusic 的「设置 → 插件管理」中添加 GitHub 插件源：
+
+```text
+https://github.com/xldgo/echo-auto-vip
+```
+
+添加后即可在线安装、启用；后续更新仓库 `manifest.json` 的 `version` 后，可在插件管理页直接检测并更新。
+
+### 方式二：本地目录安装
+
+把本目录放入 `%APPDATA%\echo-music\plugins\echo-auto-vip\`，重启 EchoMusic，在「设置 → 插件管理」中启用，即可在插件卡片上打开设置页。
 
 ## 注意
 

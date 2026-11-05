@@ -1,0 +1,17 @@
+{
+  "name": "echo-auto-vip 插件源",
+  "homepage": "https://github.com/xldgo/echo-auto-vip",
+  "plugins": [
+    {
+      "id": "echo-auto-vip",
+      "path": "",
+      "repo": "https://github.com/xldgo/echo-auto-vip",
+      "homepage": "https://github.com/xldgo/echo-auto-vip",
+      "tags": [
+        "auto",
+        "claim",
+        "vip"
+      ]
+    }
+  ]
+}
